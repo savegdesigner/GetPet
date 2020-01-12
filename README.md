@@ -5,6 +5,8 @@
 ### Autor 
 - [**Vinicius Savegnago**](https://www.instagram.com/vsgdesigner/)
 
+---
+
 ## Design do Projeto
 
 [![Figma Logo](https://github.com/savegdesigner/GetPet/blob/master/figma-logo.svg)](https://www.figma.com/file/TmvjislaRufJB0ycteMuEs/Get-a-Pet)
