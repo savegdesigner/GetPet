@@ -1,0 +1,161 @@
+@media (max-width: 1430px){
+
+    main .title-text h1{
+        font-size: 92px;
+    }
+
+}
+
+@media (max-width: 1360px){
+
+    main .title-text h1{
+        font-size: 80px;
+    }
+
+    main .title-text .content-text h2{
+        font-size: 26px;
+    }
+
+    header nav{
+        margin-right: 260px;
+    }
+
+    main .side{
+        right: 110px;
+    }
+
+    main #dog-image{
+        right: 40px;
+    }
+
+    #adopt-me .dog-card .side-b{
+        right: 110px;
+    }
+
+    #adopt-me .dog-card .adopted-dog-card{
+        right: 110px;
+    }
+
+}
+
+@media (max-width: 1275px){
+
+    header nav{
+        margin-right: 300px;
+    }
+
+    main .title-text h1{
+        font-size: 70px;
+    }
+
+    main .title-text .content-text{
+        max-width: 550px;
+    }
+
+    main .title-text .content-text h2{
+        font-size: 22px;
+    }
+
+    main .title-text .buttons {
+        margin-top: 60px;
+    }
+
+}
+
+@media (max-width: 1170px){
+
+    header nav{
+        margin-right: 0;
+    }
+
+    main .title-text{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 220px 40px 0px 40px;
+    }
+
+    main .side{
+        display: none;
+    }
+
+    main #dog-image{
+        display: none;
+    }
+
+    #adopt-me{
+        padding: 100px 40px 70px 40px;
+    }
+
+    #adopt-me .dog-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #adopt-me .dog-card .side-b{
+        display: none;
+    }
+
+    #adopt-me .dog-card .adopted-dog-card{
+        position: initial;
+    }
+
+}
+
+@media (max-width: 960px){
+
+    #adopt-me{
+        flex-flow: column;
+    }
+
+    #adopt-me .form{
+        width: 100%;
+    }
+
+    #adopt-me .form .input-content{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #adopt-me .dog-card{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 900px){
+
+    header nav{
+        display: none;
+    }
+
+}
+
+@media (max-width: 640px){
+
+    main .title-text{
+        padding: 220px 20px 0px 40px;
+    }
+
+    #adopt-me{
+        padding: 220px 20px 40px 40px;
+    }
+
+    #adopt-me .form .input-content{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 530px){
+
+    main .title-text .buttons{
+
+    }
+
+}

@@ -54,9 +54,10 @@ header{
     background-color: $primary-color;
 
     nav{
+        margin-right: 200px;
+
         ul{
             display: flex;
-            margin-right: 200px;
 
             li{
                 margin-right: 60px;
@@ -95,7 +96,7 @@ main{
 
     .title-text{
         width: 70%;
-        padding: 170px 90px 100px 90px;
+        padding: 170px 90px 0px 90px;
         color: $white;
 
         span{
@@ -145,15 +146,16 @@ main{
     #dog-image{
         width: 500px;
         position: absolute;
-        top: 150px;
+        top: 120px;
         right: 85px;
     }
 }
 
 #adopt-me{
+    display: flex;
     position: relative;
     background-color: $primary-color;
-    padding: 100px 90px 100px 90px;
+    padding: 100px 90px 70px 90px;
 
     .form{
         width: 50%;
@@ -161,11 +163,129 @@ main{
 
         h3{
             color: $white;
-            font-size: 30px;
+            font-size: 36px;
+            margin-bottom: 60px;
+        }
+
+        .input-content{
+            padding: 20px 40px;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+
+            label{
+                align-self: flex-start;
+                color: $white;
+            }
+
+            #dog-name,
+            select{
+                color: $black;
+                width: 100%;
+                padding: 12px 8px;
+                border: none;
+                border-radius: 4px;
+                margin: 15px 0px;
+                outline-color: $secondary-color;
+            }
+
+            #dog-name::placeholder{
+                color: #b6b6b6;
+            }
+
+            input{
+                border: none;
+            }
+
+            #adopt-submit{
+                font-size: 16px;
+                outline: none;
+                margin-top: 50px;
+                cursor: pointer;
+            }
+
         }
     }
 
     .dog-card{
         width: 50%;
+
+        .side-b{
+            overflow: visible;
+            max-width: 600px;
+            width: 380px;
+            height: 170px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $secondary-color;
+            position: absolute;
+            top: 0;
+            right: 160px;
+
+            h3{
+                color: $white;
+                font-size: 50px;
+                font-weight: 600;
+                margin-top: 60px;
+            }
+        }
+
+        .adopted-dog-card{
+            width: 380px;
+            background-color: $secondary-color;
+            height: 430px;
+            position: absolute;
+            top: 250px;
+            right: 160px;
+
+            .adopted-dog-image{
+                position: relative;
+                width: 98%;
+                height: 350px;
+                margin: 0 auto;
+                margin-top: 3px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .adopted-dog-content{
+                padding: 8px 12px;
+                color: $white;
+
+                h3{
+                    font-size: 22px;
+                    font-weight: 500;
+                    margin-bottom: 8px
+                }
+            }
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: $secondary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    ul{
+        display: flex;
+        margin-top: 30px;
+
+        li{
+            margin: 10px 24px;
+
+            a{
+                color: $white;
+            }
+        }
     }
 }

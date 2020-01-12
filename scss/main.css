@@ -59,11 +59,14 @@ header {
   background-color: #68D7E2;
 }
 
+header nav {
+  margin-right: 200px;
+}
+
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 200px;
 }
 
 header nav ul li {
@@ -105,7 +108,7 @@ main {
 
 main .title-text {
   width: 70%;
-  padding: 170px 90px 100px 90px;
+  padding: 170px 90px 0px 90px;
   color: #FCFCFC;
 }
 
@@ -163,14 +166,17 @@ main .side #icon-logo {
 main #dog-image {
   width: 500px;
   position: absolute;
-  top: 150px;
+  top: 120px;
   right: 85px;
 }
 
 #adopt-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   background-color: #68D7E2;
-  padding: 100px 90px 100px 90px;
+  padding: 100px 90px 70px 90px;
 }
 
 #adopt-me .form {
@@ -180,10 +186,166 @@ main #dog-image {
 
 #adopt-me .form h3 {
   color: #FCFCFC;
-  font-size: 30px;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+#adopt-me .form .input-content {
+  padding: 20px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#adopt-me .form .input-content label {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: #FCFCFC;
+}
+
+#adopt-me .form .input-content #dog-name,
+#adopt-me .form .input-content select {
+  color: #2F2B2B;
+  width: 100%;
+  padding: 12px 8px;
+  border: none;
+  border-radius: 4px;
+  margin: 15px 0px;
+  outline-color: #F2BE54;
+}
+
+#adopt-me .form .input-content #dog-name::-webkit-input-placeholder {
+  color: #b6b6b6;
+}
+
+#adopt-me .form .input-content #dog-name:-ms-input-placeholder {
+  color: #b6b6b6;
+}
+
+#adopt-me .form .input-content #dog-name::-ms-input-placeholder {
+  color: #b6b6b6;
+}
+
+#adopt-me .form .input-content #dog-name::placeholder {
+  color: #b6b6b6;
+}
+
+#adopt-me .form .input-content input {
+  border: none;
+}
+
+#adopt-me .form .input-content #adopt-submit {
+  font-size: 16px;
+  outline: none;
+  margin-top: 50px;
+  cursor: pointer;
 }
 
 #adopt-me .dog-card {
   width: 50%;
+}
+
+#adopt-me .dog-card .side-b {
+  overflow: visible;
+  max-width: 600px;
+  width: 380px;
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F2BE54;
+  position: absolute;
+  top: 0;
+  right: 160px;
+}
+
+#adopt-me .dog-card .side-b h3 {
+  color: #FCFCFC;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 60px;
+}
+
+#adopt-me .dog-card .adopted-dog-card {
+  width: 380px;
+  background-color: #F2BE54;
+  height: 430px;
+  position: absolute;
+  top: 250px;
+  right: 160px;
+}
+
+#adopt-me .dog-card .adopted-dog-card .adopted-dog-image {
+  position: relative;
+  width: 98%;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 3px;
+}
+
+#adopt-me .dog-card .adopted-dog-card .adopted-dog-image img {
+  width: 100%;
+  height: 100%;
+}
+
+#adopt-me .dog-card .adopted-dog-card .adopted-dog-content {
+  padding: 8px 12px;
+  color: #FCFCFC;
+}
+
+#adopt-me .dog-card .adopted-dog-card .adopted-dog-content h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+footer {
+  width: 100%;
+  height: 25vh;
+  background-color: #F2BE54;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+footer ul li {
+  margin: 10px 24px;
+}
+
+footer ul li a {
+  color: #FCFCFC;
 }
 /*# sourceMappingURL=main.css.map */

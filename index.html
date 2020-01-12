@@ -17,6 +17,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="/css/media-queries.css">
 
     <!-- Scripts -->
     <script defer src="js/main.js"></script>
@@ -74,12 +75,66 @@
 
     <section id="adopt-me">
 
-        <div class="form">
+        <form class="form">
             <h3>Preencha o formulário para a adoção</h3>
+
+            <div class="input-content">
+
+                <label for="dog-name">Escolha um nome para seu novo amigo</label>
+                <input type="text" id="dog-name" placeholder="Que tal Maxus ?">
+
+                <label for="breeds">Escolha uma raça</label>
+                <select name="breeds" id="breeds">
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                </select>
+
+                <label for="colors">Qual sua cor favorita?</label>
+                <select name="colors" id="colors">
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                </select>
+
+                <label for="fonts">Que tal uma fonte para o nome?</label>
+                <select name="fonts" id="fonts">
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                    <option value="example">example</option>
+                </select>
+
+                <input id="adopt-submit"type="submit" class="primary-button" value="ADOTAR">
+
+
+            </form>
+
+
         </div>
 
         <div class="dog-card">
-            
+            <div class="side-b">
+                <h3>Adote Me</h3>
+            </div>
+
+            <div class="adopted-dog-card">
+                <div class="adopted-dog-image">
+                    <img src="/assets/images/dogdog.jpg" alt="Imagem do cão adotado">
+                </div>
+
+                <div class="adopted-dog-content">
+                    <h3 id="adopted-dog-name">Dog Name</h3>
+
+                    <p id="adopted-dog-breed">Breed name</p>
+                </div>
+                
+            </div>
         </div>
 
         
@@ -87,7 +142,17 @@
     </section>
 
 
-    <!-- <footer></footer> -->
+    <footer>
+        <img src="/assets/icons/getpet-logo-2.svg" alt="GetPet Logo">
+
+        <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Cães</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+
+    </footer>
 
 </body>
 
