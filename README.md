@@ -9,8 +9,7 @@
 
 ## Design do Projeto
 
-[![Figma Logo](https://github.com/savegdesigner/GetPet/blob/master/figma-logo.svg)]
-(https://www.figma.com/file/TmvjislaRufJB0ycteMuEs/Get-a-Pet)
+[![Figma Logo](https://github.com/savegdesigner/GetPet/blob/master/figma-logo.svg)](https://www.figma.com/file/TmvjislaRufJB0ycteMuEs/Get-a-Pet)
 
 ---
 
