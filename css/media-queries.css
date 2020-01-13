@@ -1,3 +1,5 @@
+/* Width adjustment (Mobile, Desktop) */
+
 @media (max-width: 1430px){
 
     main .title-text h1{
@@ -108,6 +110,10 @@
 
 @media (max-width: 960px){
 
+    .primary-button{
+        margin: 10px 10px 10px 10px;
+    }
+
     #adopt-me{
         flex-flow: column;
     }
@@ -134,16 +140,28 @@
         display: none;
     }
 
+    #facebook-icon{
+        display: none;
+    }
+
+    #nav-icon{
+        display: block;
+    }
+
 }
 
 @media (max-width: 640px){
 
+    header{
+        padding: 20px;
+    }
+
     main .title-text{
-        padding: 220px 20px 0px 40px;
+        padding: 220px 20px 0px 20px;
     }
 
     #adopt-me{
-        padding: 220px 20px 40px 40px;
+        padding: 220px 20px 40px 20px;
     }
 
     #adopt-me .form .input-content{
@@ -152,10 +170,96 @@
 
 }
 
-@media (max-width: 530px){
+@media (max-width: 440px){
+
+    header{
+        padding: 15px;
+    }
+
+    main .title-text{
+        padding: 250px 10px 0px 10px;
+    }
+
+    .primary-button,
+    .secondary-button{
+        width: 120px;
+        padding: 14px;
+        font-size: 14px!important;
+    }
+
+    main .title-text h1{
+        font-size: 48px;
+    }
+
+    main .title-text .content-text h2{
+        font-size: 18px;
+    }
+
+    #adopt-me{
+        padding: 120px 5px 40px 5px;
+    }
+
+    #adopt-me .dog-card .adopted-dog-card{
+        width: 280px;
+        height: 390px;
+    }
+
+    #adopt-me .dog-card .adopted-dog-card .adopted-dog-image{
+        height: auto;
+    }
+}
+
+@media (max-width: 440px){
+    footer ul li{
+        margin: 10px;
+    }
+}
+
+/* Height Ajustment (Ipads, Horizontal Mobiles)*/
+
+@media (max-height: 880px){
+
+    main #dog-image{
+        width: 350px;
+        right: 160px;
+    }
+
+}
+
+@media (max-height: 700px){
+
+    main .title-text{
+        padding: 100px 90px 0px 90px;
+    }
+
+    main #dog-image{
+        width: 300px;
+        right: 195px;
+        top: 50px;
+    }
+
+}
+
+@media (max-height: 600px){
+
+    main{
+        height: 600px;
+    }
 
     main .title-text .buttons{
+        margin-top: 30px;
+    }
 
+    footer{
+        height: 250px;
+    }
+
+}
+
+@media (max-height: 460px){
+
+    main .title-text{
+        padding: 40px 90px 0px 90px;
     }
 
 }

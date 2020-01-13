@@ -21,6 +21,7 @@
 
     <!-- Scripts -->
     <script defer src="js/main.js"></script>
+    <script defer src="js/menu.js"></script>
 
 </head>
 
@@ -32,7 +33,13 @@
 
             <a href="/"><img src="/assets/icons/getpet-logo.svg" alt="Get a Pet Logo"></a>
 
-            <nav>
+            <div id="nav-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="navigation">
                 <ul>
                     <li><a href="/">Início</a></li>
                     <li><a href="#">Sobre</a></li>
@@ -55,7 +62,7 @@
                 <div class="content-text">
                     <h2>Dê um novo lar e uma nova família para quem mais precisa.</h2>
                 </div>
-                
+
 
                 <div class="buttons">
                     <a class="primary-button" href="#adopt-me">ADOTE</a>
@@ -66,7 +73,7 @@
             <div class="side">
                 <img id="icon-logo" src="/assets/icons/dog-icon.svg" alt="Icone Logo">
             </div>
-            
+
             <img id="dog-image" src="/assets/images/dog-image-2.png" alt="Imagem de Cão">
 
         </main>
@@ -110,10 +117,10 @@
                     <option value="example">example</option>
                 </select>
 
-                <input id="adopt-submit"type="submit" class="primary-button" value="ADOTAR">
+                <input id="adopt-submit" type="submit" class="primary-button" value="ADOTAR">
 
 
-            </form>
+        </form>
 
 
         </div>
@@ -125,19 +132,19 @@
 
             <div class="adopted-dog-card">
                 <div class="adopted-dog-image">
-                    <img src="/assets/images/dogdog.jpg" alt="Imagem do cão adotado">
+                    <img src="/assets/images/default-dog-image.svg" alt="Imagem do cão adotado">
                 </div>
 
                 <div class="adopted-dog-content">
-                    <h3 id="adopted-dog-name">Dog Name</h3>
+                    <h3 id="adopted-dog-name"></h3>
 
-                    <p id="adopted-dog-breed">Breed name</p>
+                    <p id="adopted-dog-breed"></p>
                 </div>
-                
+
             </div>
         </div>
 
-        
+
 
     </section>
 
