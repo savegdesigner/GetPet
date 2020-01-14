@@ -209,7 +209,7 @@
     }
 
     #adopt-me .dog-card .adopted-dog-card{
-        height: 350px;
+        height: 370px;
     }
 
     #adopt-me .dog-card .adopted-dog-card .adopted-dog-content{
@@ -222,6 +222,11 @@
 }
 
 @media (max-width: 440px){
+
+    main .title-text{
+        padding: 40px 40px 0px 40px;
+    }
+
     footer ul li{
         margin: 10px;
     }
@@ -230,6 +235,10 @@
 /* Height Ajustment (Ipads, Horizontal Mobiles)*/
 
 @media (max-height: 880px){
+
+    main .title-text{
+        padding: 160px 40px 0px 40px;
+    }
 
     main #dog-image{
         width: 350px;
@@ -241,7 +250,7 @@
 @media (max-height: 700px){
 
     main .title-text{
-        padding: 100px 90px 0px 90px;
+        padding: 100px 40px 0px 40px;
     }
 
     main #dog-image{
@@ -271,7 +280,7 @@
 @media (max-height: 460px){
 
     main .title-text{
-        padding: 40px 90px 0px 90px;
+        padding: 40px 40px 0px 40px;
     }
 
 }
