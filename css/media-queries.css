@@ -207,6 +207,18 @@
     #adopt-me .dog-card .adopted-dog-card .adopted-dog-image{
         height: auto;
     }
+
+    #adopt-me .dog-card .adopted-dog-card{
+        height: 350px;
+    }
+
+    #adopt-me .dog-card .adopted-dog-card .adopted-dog-content{
+        margin-top: 0;
+    }
+
+    #save-card-button{
+        top: -50px;
+    }
 }
 
 @media (max-width: 440px){
