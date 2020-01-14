@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 .main-wrapper {
   position: relative;
 }
@@ -175,6 +180,13 @@ main #dog-image {
   text-align: center;
 }
 
+#adopt-me .form .error {
+  margin-bottom: 20px;
+  color: #c03333;
+  font-weight: 500;
+  display: none;
+}
+
 #adopt-me .form h3 {
   color: #FCFCFC;
   font-size: 36px;
@@ -242,6 +254,26 @@ main #dog-image {
   cursor: pointer;
 }
 
+#adopt-me .form #roboto {
+  font-family: Roboto;
+}
+
+#adopt-me .form #lato {
+  font-family: Lato;
+}
+
+#adopt-me .form #poppins {
+  font-family: Poppins;
+}
+
+#adopt-me .form #montserrat {
+  font-family: Montserrat;
+}
+
+#adopt-me .form #nunito {
+  font-family: Nunito;
+}
+
 #adopt-me .dog-card {
   width: 50%;
 }
@@ -296,6 +328,7 @@ main #dog-image {
 }
 
 #adopt-me .dog-card .adopted-dog-card .adopted-dog-content {
+  margin-top: 34px;
   padding: 8px 12px;
   color: #FCFCFC;
 }
@@ -382,6 +415,10 @@ footer ul li a {
           box-shadow: 17px 25px 70px -6px rgba(58, 57, 54, 0.31);
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
+}
+
+.adopted-button-style {
+  background-color: #2F2B2B;
 }
 
 #nav-icon {

@@ -1,4 +1,12 @@
+// Main Font
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
+
+// Sub Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
 // Palettes
 $primary-color: #68D7E2;
@@ -153,6 +161,13 @@ main{
         width: 50%;
         text-align: center;
 
+        .error{
+            margin-bottom: 20px;
+            color: #c03333;
+            font-weight: 500;
+            display: none;
+        }
+
         h3{
             color: $white;
             font-size: 36px;
@@ -198,6 +213,26 @@ main{
             }
 
         }
+
+        #roboto{
+            font-family: Roboto;
+        }
+
+        #lato{
+            font-family: Lato;
+        }
+
+        #poppins{
+            font-family: Poppins;
+        }
+
+        #montserrat{
+         font-family: Montserrat;
+        }
+
+        #nunito{
+            font-family: Nunito;
+           }
     }
 
     .dog-card{
@@ -246,6 +281,7 @@ main{
             }
 
             .adopted-dog-content{
+                margin-top: 34px;
                 padding: 8px 12px;
                 color: $white;
 
@@ -319,6 +355,9 @@ footer{
     }
 }
 
+.adopted-button-style{
+    background-color: $black;
+}
 
 
 // Menu Icon
