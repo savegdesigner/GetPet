@@ -328,6 +328,7 @@ main #dog-image {
 }
 
 #adopt-me .dog-card .adopted-dog-card .adopted-dog-content {
+  position: relative;
   margin-top: 34px;
   padding: 8px 12px;
   color: #FCFCFC;
@@ -337,6 +338,16 @@ main #dog-image {
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 8px;
+}
+
+#adopt-me .dog-card .adopted-dog-card .adopted-dog-content #save-date {
+  font-weight: 500;
+  color: #2F2B2B;
+  font-size: 10px;
+}
+
+#adopt-me .dog-card .adopted-dog-card .adopted-dog-content #adopted-dog-breed {
+  margin-top: -3px;
 }
 
 footer {
@@ -419,6 +430,28 @@ footer ul li a {
 
 .adopted-button-style {
   background-color: #2F2B2B;
+}
+
+#save-card-button {
+  background-color: #F2BE54;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #FCFCFC;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  right: 15px;
+  top: -45px;
+  font-weight: 500;
+  -webkit-transition: 240ms ease;
+  transition: 240ms ease;
+  display: none;
+}
+
+#save-card-button:hover {
+  background-color: #FCFCFC;
+  color: #2F2B2B;
 }
 
 #nav-icon {

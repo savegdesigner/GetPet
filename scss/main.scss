@@ -281,6 +281,7 @@ main{
             }
 
             .adopted-dog-content{
+                position: relative;
                 margin-top: 34px;
                 padding: 8px 12px;
                 color: $white;
@@ -289,6 +290,16 @@ main{
                     font-size: 22px;
                     font-weight: 500;
                     margin-bottom: 8px
+                }
+
+                #save-date{
+                    font-weight: 500;
+                    color: $black;
+                    font-size: 10px;
+                }
+
+                #adopted-dog-breed{
+                    margin-top: -3px;
                 }
             }
         }
@@ -357,6 +368,27 @@ footer{
 
 .adopted-button-style{
     background-color: $black;
+}
+
+#save-card-button{
+    background-color: $secondary-color;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: $white;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    right: 15px;
+    top: -45px;
+    font-weight: 500;
+    transition: 240ms ease;
+    display: none;
+
+    &:hover{
+        background-color: $white;
+        color: $black;
+    }
 }
 
 
